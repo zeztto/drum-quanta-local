@@ -1,0 +1,27 @@
+.venv*/
+.runtime/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+*.wav
+*.aiff
+*.aif
+*.flac
+*.zip
+*.tar
+*.gz
+# Retired private web/per-track code is preserved outside the publication allowlist.
+app.py
+run_web.py
+src/web/
+src/core/pipeline.py
+src/core/track_detector.py
+src/core/phase_align.py
+src/core/bpm_detector.py
+src/core/file_io.py
+src/utils/export.py
+src/utils/validators.py
+.github/workflows/build-release.yml
+.github/workflows/build-test.yml
